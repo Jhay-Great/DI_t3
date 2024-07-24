@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 :root {
@@ -30,6 +32,14 @@ body {
     font-family: sans-serif;
     color: var(--default-text-color);
     background-color: var(--bg-white);
+}
+
+/* defining fonts for headings and text body */
+h1, h2 {
+    font-family: 'Ubuntu';
+}
+p, li {
+    font-family: "Work Sans";
 }
 
 nav {
@@ -116,6 +126,20 @@ h2 {
     word-wrap: break-word;
     /* font-size: 1.3rem; */
     font-size: var(--body-text);
+}
+
+ol {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    line-height: 1.8;
+}
+
+li span {
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    /* word-spacing: 2px; */
 }
 
 
