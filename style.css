@@ -40,6 +40,10 @@ h1, h2 {
 }
 p, li {
     font-family: "Work Sans";
+    word-spacing: 1.1px;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    font-size: var(--body-text);
 }
 
 nav {
