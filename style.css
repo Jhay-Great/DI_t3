@@ -48,3 +48,22 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
+article {
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 2rem;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: clamp(2rem, 3vw, 4rem);
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+}
+
