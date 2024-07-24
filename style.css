@@ -91,3 +91,17 @@ h1 {
     color: var(--text-color-gray);
 }
 
+.content {
+    width: 90%;
+    margin: auto;
+    background-color: green;
+}
+
+article section {
+    width: 100%;
+    height: fit-content;
+    padding: 0 1rem;
+}
+
+
+
