@@ -63,6 +63,20 @@ nav {
     background: linear-gradient(90deg, #00dd, #00a);
     background-clip: text;
 }
+.userInitials {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(87, 87, 240);
+}
+.userInitials p {
+    font-weight: 600;
+}
 
 main {
     width: 80%;
